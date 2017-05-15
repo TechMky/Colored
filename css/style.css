@@ -23,6 +23,7 @@ body{
 #message{
     display: inline-block;
     width: 20%;
+    font-size: 15px;
 }
 #container{
     max-width: 600px;
