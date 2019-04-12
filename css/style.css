@@ -24,6 +24,7 @@ body{
     display: inline-block;
     width: 20%;
     font-size: 15px;
+    animation: fade-in-out 1.5s linear  infinite alternate;
 }
 #container{
     max-width: 600px;
@@ -69,4 +70,28 @@ button{
 button:hover{
     color: white;
     background: steelblue;
+}
+/* keyframes section */
+@keyframes fade-in-out{
+    0%{
+       opacity: 0; 
+    }
+    50%{
+       opacity: 0.5;
+    }
+    100%{
+       opacity: 1;
+    }
+}
+/* media queries section */
+@media (max-width: 425px){
+    #colorDisplay{
+        font-size: 130%;
+    }
+}
+
+@media (max-width: 320px){
+    h1{
+        font-size: 1.5rem;
+    }
 }

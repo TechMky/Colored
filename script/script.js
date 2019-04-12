@@ -90,7 +90,7 @@ function pickColor() {
     return colors[random];
 }
 
-//generate rancom colors
+//generate random colors
 function generateColors(num) {
     var arr = [];
     for (var i = 0; i < num; i++) {
